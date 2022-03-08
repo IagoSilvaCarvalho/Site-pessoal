@@ -1,0 +1,111 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/fundo\ pro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    
+  
+           
+ }
+
+#hexagono{
+    display: flex;
+    flex-direction: column-reverse;
+
+    
+    margin-top: 9%;
+    margin-bottom: 9%;
+    
+
+}
+
+ .esquerda{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .img1{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+
+ .nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.digital{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.direita{
+    
+    text-align: center;
+    margin-top: 1%;
+    
+    
+        
+}
+
+.hex{
+    width: 35%;
+    right: 35%;
+    margin-bottom: -22%;
+
+}
+.programacao{
+    width: 8%;
+    margin-top: -5%;
+    
+}
+.nome-completo{
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+    font-size: 35px;
+    gap: 20px;
+    color: aliceblue;
+}
+.dev{
+    width: 20%;
+    margin-top: 2%;
+}
+.linguagem{
+    width: 20%;
+    margin-top: 2%;
+}
+.dh{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 2.5%;
+}
+.instagram1{
+    width: 1.5%;
+    margin-right: 15px;
+}
+.github{
+    width: 1.5%;
+}
